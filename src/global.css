@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+	font-size: 1vw;
+}
+
+body {
+	width: 100%;
+	max-width: 100%;
+	max-height: 100vh;
+	overflow-x: hidden;
+	background: #20103f;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: AvenirNext Regular;
+	src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+	font-family: AvenirNext Bold;
+	src: url(fonts/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+	font-family: AvenirNext Heavy;
+	src: url(fonts/AvenirNextLTPro-Heavy.otf);
+}
+
+.main-text {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 5px solid #e9e3d7;
+	border-radius: 10px;
+	color: #f7f7f7;
+	font-family: 'Arial Black', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.gradient-text-outline {
+	padding-right: 0.1em;
+	padding-left: 0.1em;
+	background: linear-gradient(
+		-45deg,
+		#bf7dd5 0%,
+		#dea0e8 20%,
+		#200d41 37%,
+		#a591ef 58%,
+		#200e43 69%,
+		#513168 77%,
+		#dea0e8 93%,
+		#c07ed5 100%
+	);
+	background-clip: text;
+	color: #eee;
+}
+
+.large-title {
+	margin: 4rem 0 0 0;
+	transform: scaleX(0.95);
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-size: 9rem;
+	letter-spacing: 0.02em;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.05em rgba(255, 255, 255, 0.01);
+}
+
+.BG-AUDIT {
+	width: 100%;
+	height: 100% !important;
+	background-attachment: fixed;
+	background-image: linear-gradient(to bottom, #191b30, #1f0f3e);
+	background-position: center;
+	background-size: cover;
+}
+
+.row-title {
+	margin-top: 1%;
+	color: #fff;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 2.2rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+	.row-title {
+		margin-top: 1%;
+		margin-bottom: 1%;
+		font-size: 4rem;
+		line-height: 1;
+	}
+
+	.col-12 {
+		padding: 0 11px !important;
+	}
+}
+
+.TECH_LINES {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+.center-div {
+	width: 100%;
+}

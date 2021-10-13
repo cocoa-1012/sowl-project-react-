@@ -1,0 +1,26 @@
+.BG-color,
+.title-image-ROADMAP::after {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.BG-color {
+	height: 100% !important;
+	background-image: url('../images/BG.png');
+}
+
+.title-image-road {
+	max-width: 80%;
+	text-align: center;
+}
+
+.title-image-ROADMAP::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-image: url('../images/ROADMAP_FADED.png');
+	background-position: center;
+}

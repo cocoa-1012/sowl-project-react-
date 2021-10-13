@@ -1,0 +1,111 @@
+.text4 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+._link {
+	color: #fff !important;
+}
+
+._link:hover {
+	text-decoration: none !important;
+}
+
+.text3 {
+	margin: auto;
+	margin-top: 15%;
+	color: #fff;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	line-height: 1.3;
+	text-align: center;
+	text-shadow: 0 10px 9.9px rgb(0 0 0);
+	text-transform: uppercase;
+}
+
+.section3 {
+	margin-top: 5%;
+	padding-bottom: 3%;
+	padding-left: 5rem;
+	background-image: url(../images/ICON_BUTTON.png);
+	background-repeat: no-repeat;
+	background-size: 37rem;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	text-align: right;
+}
+
+.icon img {
+	width: 100%;
+}
+
+.text4 {
+	flex: 0;
+	margin-top: 6%;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	color: #fff;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 1.7rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	line-height: 1.3;
+	text-shadow: 0 8px 7.72px rgb(0 0 0);
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+	.section3 {
+		margin-top: 5%;
+		padding-bottom: 3%;
+		padding-left: 5rem;
+		background-image: none;
+	}
+	.text3,
+	.text4 {
+		font-size: 5rem;
+	}
+
+	.section3 {
+		padding-bottom: 10% !important;
+		background-size: cover;
+		padding-left: 30px !important;
+	}
+
+	.icon img {
+		width: 25rem;
+	}
+
+	.icon {
+		width: 40%;
+	}
+
+	.text4 {
+		margin-top: 8%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.text4 {
+		width: 23rem;
+		margin-top: 5%;
+		margin-left: 0.3em;
+		color: #fff;
+		font-family: 'AvenirNext Bold', sans-serif;
+		font-size: 2rem;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.icon {
+		width: 30%;
+		margin-bottom: 0.5rem;
+	}
+}

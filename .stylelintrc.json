@@ -1,0 +1,12 @@
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-property-sort-order-smacss"],
+	"ignoreFiles": "**/*.js",
+
+	"plugins": ["stylelint-order"],
+
+	"rules": {
+		"indentation": null,
+		"declaration-colon-newline-after": null,
+		"value-list-comma-newline-after": null
+	}
+}

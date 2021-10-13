@@ -1,0 +1,26 @@
+.button-design {
+	display: inline-block;
+	margin: 30px auto auto;
+	background-image: url(../images/button.png);
+	background-size: cover;
+	background-size: 100% 100%;
+	line-height: 23px;
+}
+
+.button-link {
+	text-decoration: none;
+}
+
+.button-design p {
+	margin: 0;
+	padding: 1em;
+	font-family: 'AvenirNext Bold', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 730px) {
+	.button-design {
+		max-width: 80rem !important;
+	}
+}

@@ -1,0 +1,115 @@
+.large-gradient-button {
+	display: inline-block;
+	margin: 2rem auto 5rem;
+	padding: 1rem 3rem;
+	border: 0.1rem solid #eee;
+	border-radius: 2.5rem;
+	background: linear-gradient(15deg, #48395c, #171332 30%, #3d3863, #171332 70%, #48395c);
+}
+
+.large-gradient-button > span {
+	color: #fff;
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-size: 5rem;
+	letter-spacing: 0.1em;
+	text-shadow: 0 0.3rem 0.3rem #000;
+	text-transform: uppercase;
+}
+
+.utility-section-heading {
+	margin-top: 2rem;
+	font-family: 'AvenirNext Heavy', sans-serif;
+	font-size: 8rem;
+	letter-spacing: 1rem;
+	text-align: center;
+	text-shadow: 0 0.3rem 0.3rem #000;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.03em #ddd;
+}
+
+.utility-section-heading.utility {
+	color: #bcb1d1;
+}
+
+.utility-section-heading.rewards {
+	color: #40335f;
+}
+
+.form-control:focus,
+.input-styles {
+	background-color: transparent !important;
+}
+
+.input-styles {
+	z-index: 1;
+	top: 10%;
+	left: 0;
+	font-size: 2.5rem;
+}
+
+.form-control:focus {
+	border-color: transparent !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+.utility-form-1,
+.utility-form-2 {
+	max-width: 75%;
+	margin: 10rem auto 0;
+	border: 0.5rem solid transparent;
+	border-radius: 0.5rem;
+	background: linear-gradient(var(--bg-color), var(--bg-color)) padding-box,
+		linear-gradient(
+				to right,
+				#bf7dd5 0,
+				#dea0e8 20%,
+				#200d41 37%,
+				#a591ef 58%,
+				#200e43 69%,
+				#513168 77%,
+				#dea0e8 93%,
+				#c07ed5 100%
+			)
+			border-box;
+}
+
+.utility-form-1 {
+	--bg-color: #40335f;
+
+	margin: 0 auto;
+	background-size: contain;
+}
+
+.utility-form-2 {
+	--bg-color: #bcb1d1;
+}
+
+.bg-purple {
+	width: 100%;
+	height: 100% !important;
+	background: #6f5e8f;
+}
+
+.utility-section-subtitle {
+	color: white;
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.rewards-section-label {
+	margin-top: 1rem;
+	color: #40335f;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 0.04em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.rewards-section-label.white {
+	color: white;
+}

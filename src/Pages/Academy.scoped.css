@@ -1,0 +1,34 @@
+.secnd-text {
+	color: #f7f7f7;
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-weight: 700;
+	line-height: 1.8;
+	text-align: center;
+	text-shadow: 0 36px 170px rgba(33, 14, 65, 0.004);
+	text-transform: uppercase;
+}
+
+.bg-header {
+	border-bottom: 2px solid #fff;
+	background-image: linear-gradient(
+		56deg,
+		#bf7dd5 0,
+		#dea0e8 20%,
+		#200d41 31%,
+		rgb(151 129 232) 46%,
+		#200e43 51%,
+		#513168 76%,
+		#dea0e8 100%,
+		#c07ed5 100%
+	);
+}
+
+.bg-logo {
+	max-width: 55px;
+	margin-left: 6rem;
+}
+
+.owl-img,
+.secnd-text {
+	max-width: 40rem;
+}

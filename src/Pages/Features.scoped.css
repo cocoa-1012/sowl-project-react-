@@ -1,0 +1,20 @@
+.f_section1 {
+	margin-top: 85px;
+	padding-top: 0;
+	padding-bottom: 7%;
+	background-color: #191b31;
+	background-image: url(../images/f_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.key {
+	width: 100rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.f_section1 {
+		margin-top: 0;
+	}
+}

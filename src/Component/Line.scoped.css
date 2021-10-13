@@ -1,0 +1,14 @@
+.h-12 {
+	height: 12px;
+}
+
+.section_border {
+	width: 100rem;
+	margin-top: -3%;
+}
+
+@media only screen and (max-width: 767px) {
+	.section_border {
+		margin-top: -12rem;
+	}
+}

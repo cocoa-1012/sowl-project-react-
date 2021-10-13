@@ -1,0 +1,334 @@
+.pill-button {
+	display: inline-block;
+	margin: 0.75em auto 0.5em;
+	padding: 0.75rem 3rem;
+	border: 0.1rem solid #eee;
+	border-radius: 3rem;
+	background: linear-gradient(to right, #48395c, #171332 30%, #3d3863, #171332 70%, #48395c);
+}
+
+.pill-button > span {
+	color: #fff;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 1.3rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.howto-step > span,
+.sowl-protocol-text > span {
+	font-family: 'AvenirNext Heavy', sans-serif;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.howto-step {
+	padding: 1rem;
+	border: 0.5rem solid transparent;
+	border-radius: 0.5rem;
+	background: linear-gradient(
+				15deg,
+				#ebebeb 0,
+				#ebebeb 40%,
+				#848484 45%,
+				#ebebeb 50%,
+				#848484 55%,
+				#ebebeb 60%,
+				#ebebeb 100%
+			)
+			padding-box,
+		linear-gradient(
+				to right,
+				#bf7dd5 0,
+				#dea0e8 20%,
+				#200d41 37%,
+				#a591ef 58%,
+				#200e43 69%,
+				#513168 77%,
+				#dea0e8 93%,
+				#c07ed5 100%
+			)
+			border-box;
+	text-align: center;
+}
+
+.howto-step > span {
+	color: #2f224e;
+	font-size: 24px;
+	line-height: 1.2;
+}
+.how-to-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.how-to-button a {
+	margin: 3px 20px;
+}
+.sowl-protocol-text > span {
+	color: #fff;
+	font-size: 3rem;
+	line-height: 1.1;
+	text-align: center;
+	text-shadow: 0 0.3rem 0.5rem #000;
+	-webkit-text-stroke: 0.025em #4c5680;
+}
+
+.form-control:focus {
+	border-color: transparent !important;
+	outline: 0 !important;
+	background-color: transparent !important;
+	box-shadow: none !important;
+	color: #fff !important;
+}
+
+.container-box {
+	border-style: solid;
+	border-image: linear-gradient(
+			to right,
+			#bf7dd5 0%,
+			#dea0e8 20%,
+			#200d41 37%,
+			#a591ef 58%,
+			#200e43 69%,
+			#513168 77%,
+			#dea0e8 93%,
+			#c07ed5 100%
+		)
+		1;
+}
+
+.container-box.how-to {
+	background-image: linear-gradient(#685485, #514371, #685485);
+	box-shadow: 0 0 1rem #dea0e8, 0 0 0 0.25rem #e9e9e9, 0 0 0 1.15rem #e9e9e9 inset;
+	border-image-width: 1rem;
+}
+
+.container-box.step-contents {
+	background-color: #2f224e;
+	border-image-width: 0.5rem;
+	box-shadow: 0 0 1rem #dea0e8;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container-box.step-contents p span {
+	color: #f1c2f9;
+}
+
+.BUY-title,
+.BUY_paraph,
+.BUY_paraph_small {
+	color: #fff;
+	font-family: 'AvenirNext Regular', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BUY-title {
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.BUY_paraph {
+	font-size: 20px;
+	line-height: 1.021;
+}
+
+.BUY_paraph_small {
+	font-size: 13px !important;
+	line-height: 1.021 !important;
+}
+
+.woring-icon {
+	max-width: 30px;
+}
+
+.read-before-purchasing {
+	padding: 2rem;
+	border: 0.3rem solid #898989;
+	border-radius: 1.5rem;
+	background: #8a90a7;
+	box-shadow: 0 0 0.5rem #000 inset;
+	text-align: center;
+}
+
+.read-before-purchasing > span {
+	color: #210e41;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 2rem;
+}
+
+.legal-disclaimer-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem 3rem;
+	border: 0.3rem solid #898989;
+	border-radius: 0.3rem;
+	background: #4c5680;
+	text-decoration: none;
+}
+
+.legal-disclaimer-box > span {
+	color: #fff;
+	font-family: 'AvenirNext Bold', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.legal-disclaimer-box > img {
+	width: 4rem;
+}
+
+.card-title-card {
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	letter-spacing: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.card-text-body {
+	color: #191b31;
+	text-align: center;
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+	.BUY-title,
+	.BUY_paraph {
+		color: #fff;
+		font-family: 'AvenirNext Regular', sans-serif;
+		text-transform: uppercase;
+	}
+
+	.BUY-title {
+		font-size: 12px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.BUY_paraph {
+		font-size: 13px;
+		line-height: 1.021;
+	}
+}
+
+.SOWL_PROTOCOL_BG {
+	padding-top: 45px;
+	background-image: url(../images/SOWL_PROTOCOL_BG.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 100%;
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.Recommended {
+	color: #fff;
+	font-family: 'AvenirNext Regular', sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: center;
+	text-shadow: -6px -4px 5px #1f1a29, 6px 7px 5px #1f1a29;
+	text-transform: uppercase;
+}
+
+.FORM_STEP_CREATE .address {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 50rem 0 0 50rem;
+	background-color: #c79ad4;
+	line-height: 3rem;
+}
+
+.FORM_STEP_CREATE .input_copy,
+.FORM_STEP_CREATE .input_copy:focus {
+	max-width: 100%;
+	border: none;
+	background-color: #aa77b9 !important;
+	color: #fff;
+	text-indent: 105px;
+}
+
+.FORM_STEP_CREATE .ptn-copy {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 0 50rem 50rem 0;
+	background-color: #9666a4;
+}
+
+.FORM_STEP_CREATE .ptn-copy .copy-icon {
+	height: 100%;
+}
+
+@media (max-width: 1399.98px) {
+	.FORM_STEP_CREATE .input_copy {
+		min-width: 75%;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.FORM_STEP_CREATE .input_copy {
+		min-width: 70%;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.FORM_STEP_CREATE .input_copy {
+		min-width: 65%;
+	}
+}
+
+.HODL {
+	color: #eea9f8;
+}
+
+@media (max-width: 500px) {
+	.BUY-title,
+	.BUY_paraph,
+	.BUY_paraph_small {
+		color: #fff;
+		font-family: 'AvenirNext Regular', sans-serif;
+		text-transform: uppercase;
+	}
+
+	.BUY-title,
+	.BUY_paraph_small {
+		text-align: center;
+	}
+
+	.BUY-title {
+		font-size: 12px;
+		font-weight: 700;
+	}
+
+	.BUY_paraph,
+	.BUY_paraph_small {
+		font-size: 13px;
+		line-height: 1.021;
+	}
+
+	.FORM_STEP_CREATE {
+		transform: scale(1.5);
+	}
+}
+
+.FORM_STEP_CREATE .input_copy:focus-visible {
+	outline: 0;
+}
